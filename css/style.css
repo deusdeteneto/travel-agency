@@ -2,3 +2,14 @@
     height: 200px;
     overflow-y: scroll;
 }
+
+.custom-search-input {
+  background-color: white !important; 
+  color: grey !important;
+  border: none !important;
+}
+
+.custom-search-input::placeholder {
+  color: grey !important;
+  opacity: 0.5 !important;
+}
